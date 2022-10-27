@@ -259,8 +259,8 @@
   }
 
   .our_team_wrap {
-      max-width: 1170px;
-      margin: 0 auto;
+    max-width: 1170px;
+    margin: 0 auto;
   }
 
   .person_cards {
@@ -287,11 +287,11 @@
   }
 
   .person_card_subtitle {
-  color: rgb(255, 67, 67);
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  text-transform: uppercase;
+    color: rgb(255, 67, 67);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
   }
 
   .person_card_text {
@@ -356,7 +356,7 @@
       width: 100%;
       overflow: hidden;
   }
-  
+
    /*Testimonials end*/
    /*Download start*/
 
@@ -441,15 +441,255 @@
     color: #FFFFFF;
   }
 
-
    /*Footer end*/
 
+   /*Media start*/
 
- 
-     
-
-
-
-     
+  @media screen and (max-width: 1024px) {
     
-    
+    .header {
+      height: 768px;
+      max-width: 1024px;
+      padding-left: 20px;
+      padding-right: 20px;
+      background: url(../IMG/bg.jpg) center top / cover no-repeat rgb(37, 43, 73, 1);
+    }
+
+    .header_list {
+      padding-top: 36px;
+      padding-bottom: 20px;
+    }
+
+    .header_link {
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 14px;
+    }
+
+    .header_item {
+      width: 112px;
+    }
+
+    .line {
+      width: 984px;
+      
+    }
+
+    .header_item :after {
+      margin-top: 35px;
+  }
+
+    .banner-title {
+      font-weight: 900;
+      font-size: 48px;
+      line-height: 56px;
+      padding-bottom: 34px;
+    }
+
+    .banner-text {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 21px;
+      padding-bottom: 91.57px;
+    }
+
+    .btn.btn-primary.btn-lg {
+      width: 313.15px;
+      height: 77.58px;
+    }
+
+
+    .features {
+      padding-top: 88px;
+      padding-bottom: 80px;
+    }
+
+    .features_wrap {
+      max-width: 984px;
+      margin: 0 auto;
+      margin-left: 20px;
+    }
+
+    .features_cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-column-gap: 20px;
+      grid-row-gap: 59.54px;
+        }
+
+    .features_card {
+      width: 315px;
+      height: 237px;
+      grid-column: span 1 / auto;
+    }
+
+    .features_card_title {
+      font-weight: 900;
+      font-size: 18px;
+      line-height: 21px;
+    }
+
+    .features_card_text {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+    }
+
+    .features_card_pic {
+      width: 85px;
+      height: 83.97px;
+      padding-left: 115px;
+      padding-bottom: 34.49px;
+    }
+
+
+    .work {
+      padding-top: 60px;
+    }
+
+    .work_boxes {
+      max-width: 1024px;
+      display: grid;
+      grid-template-columns: repeat(4, 256px);
+      grid-template-rows: repeat(2, 230px);
+      grid-gap: 2px;
+    }
+
+    .work img {
+      height: 230px;
+      width: 256px;
+    }
+
+
+  .our_team {
+    padding-top: 78px;
+  }
+
+  .our_team_wrap {
+    max-width: 984px;
+    margin-left: 20px;
+  }
+
+  .person_cards {
+    grid-column-gap: 25px;
+  }
+
+  .person_card_title {
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: capitalize;
+  }
+
+  .person_card_subtitle {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .person_card_text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .person_card {
+    width: 227.08px;
+    height: 520.59px;
+  }
+
+  .person_card_pic img {
+    width: 227.08px;
+    height: 227.08px;
+  }
+
+  .our_team_wrap {
+    max-width: 1024px;
+}
+
+
+.testimonials {
+  padding-top: 78.41px;
+ }
+
+ .testimonials_box {
+  width: 1024px;
+  height: 332px;
+ }
+
+.testimonials_pic img{
+    width: 502px;
+    height: 332px;
+}
+
+.testimonials_text {
+  padding-left: 130px;
+}
+
+.text1 {
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 47px;
+}
+
+.text2 {
+  font-size: 12px;
+  line-height: 14px;
+  margin-right: 104px;
+}
+
+
+.download {
+  max-width: 1024px;
+  padding-top: 111px;
+}
+
+ .download_wrap {
+  max-width: 984px;
+}
+ .download-header {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+ .download-title {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.footer {
+  max-height: 229px;
+  max-width: 1024px;
+}
+
+.footer-wrap {
+  max-width: 984px;
+}
+
+.footer-items {
+  grid-column-gap: 30px;
+  padding-top: 46.59px;
+}
+
+.footer-item {
+  width: 315px;
+}
+
+.footer-header {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.footer-text {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.card-body_2 {
+  padding-top: 21px;
+}
+
+.card-footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+   /*Media end*/
