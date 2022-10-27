@@ -1,0 +1,176 @@
+.banner {
+    padding-top: 110px;
+    h1{
+        font-weight: 900;
+        font-size: 64px;
+        line-height: 75px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+    }
+    p{
+        padding-top: 25px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+        padding-bottom: 65px;
+    }
+    button{
+        width: 369px;
+        height: 77.58px; 
+        background-color: #FF4343;
+        border-color: #FF4343;
+        font-family: 'Raleway';
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+}
+.testimonials{
+    padding-top: 114px;
+    .testimonials_box{
+        width: 1510px;
+        height: 490px;
+        background-color: #5C3249;
+        display: flex;
+        flex-wrap: wrap;
+        img{
+            width: 740px;
+            height: 490px;
+        }
+        .testimonials_text{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding-left: 130px;
+            padding-top: 133px;
+            h2{
+                font-family: Cardo;
+                font-style: italic;
+                font-weight: 400;
+                font-size: 36px;
+                line-height: 49px;
+                text-transform: capitalize;
+                color: #FFFFFF;
+            }
+            h6{
+                font-weight: 700;
+                font-size: 13px;
+                line-height: 15px;
+                text-transform: uppercase;
+                color: rgb(255, 255, 255);
+                margin-right: 170px;
+            }
+        }
+    }
+}
+
+.download{
+    font-family: 'Raleway';
+    padding-top: 177px;
+    margin-bottom: 112px;
+    .download_wrap{
+        max-width: 1170px;
+        margin: 0 auto;
+        h1{
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 35px;
+            color: #000000;
+            padding-bottom: 16px;
+        }
+        h5{
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 21px;
+            text-transform: uppercase;
+            color: #000000;
+            padding-bottom: 44px
+        }
+        button{
+            width: 369px;
+            height: 77.58px; 
+            background-color: #FF4343;
+            border-color: #FF4343;
+            font-family: 'Raleway';
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 28px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    .banner{
+        padding-top: 150px;
+    
+        h1{
+            font-weight: 900;
+            font-size: 48px;
+            line-height: 56px;
+            padding-bottom: 34px;
+        }
+        p{
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            padding-bottom: 91.57px;
+        }
+        button{
+            width: 313.15px;
+            height: 77.58px;
+        }
+    }
+
+    .testimonials{
+        padding-top: 78.41px;
+        .testimonials_box{
+            width: 1024px;
+            height: 332px;
+            img{
+                width: 502px;
+                height: 332px;
+            }
+            .testimonials_text{
+                padding-top: 57px;
+                padding-left: 100px;
+                h2{
+                    font-size: 24px;
+                    line-height: 32px;
+                }
+                h6{
+                    font-size: 12px;
+                    line-height: 14px;
+                    margin-right: 47px;
+                }
+            }
+        }
+    }
+
+    .download{
+        max-width: 1024px;
+        padding-top: 111px;
+        .download_wrap{
+            max-width: 984px;
+            h1{
+                font-size: 24px;
+                line-height: 28px;
+            }
+            h5{
+                font-size: 14px;
+                line-height: 16px;
+            }
+            button{
+                width: 313.15px;
+                height: 77.58px;
+            }
+        }
+    
+    }
+}
