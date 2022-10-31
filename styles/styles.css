@@ -105,7 +105,7 @@
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 321px) and (max-width: 1024px) {
   .banner {
     padding-top: 150px;
   }
@@ -167,6 +167,75 @@
   .download .download_wrap button {
     width: 313.15px;
     height: 77.58px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .banner {
+    padding-top: 50.27px;
+  }
+  .banner h1 {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    padding-bottom: 12px;
+  }
+  .banner p {
+    font-size: 14px;
+    line-height: 16px;
+    padding-bottom: 30px;
+  }
+  .banner button {
+    width: 279.24px;
+    height: 58.18px;
+  }
+  .testimonials {
+    padding-top: 45px;
+  }
+  .testimonials .testimonials_box {
+    width: 320px;
+    height: 570.49px;
+  }
+  .testimonials .testimonials_box img {
+    width: 320px;
+    height: 212px;
+  }
+  .testimonials .testimonials_box .testimonials_text {
+    padding-top: 4px;
+    padding-left: 20px;
+    text-align: center;
+  }
+  .testimonials .testimonials_box .testimonials_text h2 {
+    font-size: 24px;
+    line-height: 32px;
+    padding-bottom: 15px;
+  }
+  .testimonials .testimonials_box .testimonials_text h6 {
+    font-size: 12px;
+    line-height: 14px;
+    margin-right: 20px;
+  }
+  .download {
+    margin-bottom: 45px;
+    max-width: 320px;
+    padding-top: 67px;
+  }
+  .download .download_wrap {
+    max-width: 280px;
+  }
+  .download .download_wrap h1 {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .download .download_wrap h5 {
+    font-size: 13px;
+    line-height: 15px;
+    padding-bottom: 13.45px;
+  }
+  .download .download_wrap button {
+    width: 278.25px;
+    height: 77.58px;
+    font-size: 18px;
+    line-height: 21px;
   }
 }
 
