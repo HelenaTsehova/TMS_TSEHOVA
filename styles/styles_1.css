@@ -134,6 +134,10 @@ body {
     background-color: #BABBC5;
     margin-top: 0;
   }
+
+  .burger-menu {
+    display: none;
+  }
    /*Header styles end*/
 
    /*Features styles start*/
@@ -196,74 +200,47 @@ body {
 
   .work_box {
     overflow: hidden;
-  }
-
-  .work_boxes.work_box div {
-    transform: scale(1.01);
-    width: 100%;
-    height: 100%;
-  }
-
-  .hover1 {
-    text-align: center;
-    display: inline-block;
-    overflow: hidden;
+    display: flex;
     position: relative;
-    text-decoration: none;
-    }
-    .hover1:before {
-    display: block;
-    background-color: rgba(255, 67, 67, 0.8);
-    content: "";
-    height: 100%;
-    opacity: 0;
+  }
+
+  .hover {
+    display: none;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
     position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    z-index: 2;
-    }
-    
-    .hover1:after {
-    font-family: 'Raleway';
-    font-weight: 900;
+    height: 100%;
+    background-color: rgba(255, 67, 67, 0.8);
     color: #FFFFFF;
-    content: attr(alt);
-    display: block;
-    font-size: 24px;
-    opacity: 0;
-    padding: 0 3%;
-    position: absolute;
-    text-transform: uppercase;
-    top: 40%;
-    -webkit-transform-origin: 50% 0%;
-    transform-origin: 50% 0%;
-    -webkit-transform: scale(0) translateY(-50%);
-    transform: scale(0) translateY(-50%);
-    width: 94%;
-    z-index: 3;
-    }
-    
-    
-    .hover1 img {
-    border: none;
-    display: block;
-    z-index: 1;
-    }
-    
-    .hover1:after {
-    -webkit-transition: all 350ms ease-in-out;
-    transition: all 350ms ease-in-out;
-    }
-    
-    .hover1:hover:before {
-    opacity: 0.6;
-    }
-    
-    .hover1:hover:after {
-    opacity: 1;
-    -webkit-transform: scale(1) translateY(-50%);
-    transform: scale(1) translateY(-50%);
-    }
-    
+}
+
+.uppercase {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+
+.design {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+  .work_box:hover .hover {
+    display: flex;
+  }
+
+  .work_box:active .hover {
+    background-color: #B90C0C;
+    opacity: 80%;
+  }
+
    /*Work styles end*/
 
    /*Our team start*/
@@ -423,6 +400,9 @@ body {
     .header_item :after {
       margin-top: 35px;
   }
+
+
+
     .features {
       padding-top: 88px;
       padding-bottom: 80px;
@@ -483,10 +463,19 @@ body {
       height: 230px;
       width: 256px;
     }
-    .hover1:after {
-      font-size: 18px;
-      line-height: 21px;
-    }
+
+.uppercase {
+  font-size: 18px;
+  line-height: 21px;
+  padding-bottom: 15px;
+}
+
+.design {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+ /*our team*/
 
   .our_team {
     padding-top: 78px;
@@ -670,9 +659,15 @@ body {
       height: 144px;
       width: 160px;
     }
-    .hover1:after {
+    .uppercase {
       font-size: 18px;
       line-height: 21px;
+      padding-bottom: 5px;
+    }
+    
+    .design {
+      font-size: 14px;
+      line-height: 16px;
     }
 
     /*our team*/
