@@ -142,7 +142,13 @@
     }
 
     .testimonials{
-        padding-top: 78.41px;
+        height: 365.49px;
+        .carousel-indicators [data-bs-target]{
+            width: 9.49px; 
+            height: 9.49px;
+            border-radius: 50%;
+            margin-left: 25.51px;
+        }
         .testimonials_box{
             width: 1024px;
             height: 332px;
@@ -209,7 +215,12 @@
     }
 
     .testimonials{
-        padding-top: 45px;
+        height: 570.49px;
+        .carousel-indicators [data-bs-target]{
+            width: 9.49px; 
+            height: 9.49px;
+            margin-left: 20.51px;
+        }
         .testimonials_box{
             width: 320px;
             height: 570.49px;
