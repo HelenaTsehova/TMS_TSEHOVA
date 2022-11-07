@@ -38,9 +38,13 @@
         background-color: #FFFFFF;
         border-radius: 50%;
         margin-left: 25px;
-        button:active{
-            background-color: #7E5D6F;
-        }
+        margin-bottom: 0;
+    }
+    .carousel-indicators {
+        bottom: -15%;
+    }
+    .carousel-indicators .active {
+        background-color: #7E5D6F;
     }
     .testimonials_box{
         width: 1510px;
@@ -81,7 +85,7 @@
 
 .download{
     font-family: 'Raleway';
-    padding-top: 177px;
+    padding-top: 125px;
     margin-bottom: 112px;
     .download_wrap{
         max-width: 1170px;
@@ -216,10 +220,14 @@
 
     .testimonials{
         height: 570.49px;
+        padding-top: 34px;
         .carousel-indicators [data-bs-target]{
             width: 9.49px; 
             height: 9.49px;
             margin-left: 20.51px;
+        }
+        .carousel-indicators {
+            bottom: -10%;
         }
         .testimonials_box{
             width: 320px;
@@ -229,8 +237,8 @@
                 height: 212px;
             }
             .testimonials_text {
-                padding-top: 4px;
-                padding-left: 20px;
+                padding-top: 0;
+                padding-left: 10px;
                 text-align: center;
                 h2{
                     font-size: 24px;
@@ -249,7 +257,7 @@
     .download{
         margin-bottom: 45px;
         max-width: 320px;
-        padding-top: 67px;
+        padding-top: 97px;
         .download_wrap{
             max-width: 280px;
             h3{
