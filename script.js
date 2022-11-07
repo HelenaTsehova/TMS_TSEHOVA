@@ -1,12 +1,11 @@
 (function () {
-    const menuIconId = 'burger-icon';
-    const closeIconId = 'header__nav-close';
-    const headerContainerId = 'header';
-
-document.getElementById(menuIconId).addEventListener('click', () => {
-  document.getElementById(headerContainerId).classList.add('mobile-menu');
-});
-
-document.getElementById(closeIconId).addEventListener('click', () => {
-  document.getElementById(headerContainerId).classList.remove('mobile-menu');
-});
+    const burgerItem = document.querySelector('.burger');
+    const menu = document.querySelector('.header_nav');
+    const menuCloseItem = document.querySelector('.header__nav-close');
+    burgerItem.addEventListener('click', () => {
+      menu.classList.add('header_nav-active');
+    })
+    menuCloseItem.addEventListener('click', () => {
+      menu.classList.remove('header_nav-active');
+    })
+}());
