@@ -109,9 +109,26 @@ body {
   transition: width .3s ease-in-out;
 }
 
+.header_item :hover {
+  color: #FFFFFF;
+}
+
+.header_item :active {
+  color: #E71414;
+}
+
+.header_item :focus {
+  color: #E71414;
+}
+
 .header_item :hover:after,
 .header_item :focus:after {
   width: 100%;
+}
+
+.header_item :active:after,
+.header_item :focus:after {
+  background-color: #E71414;
 }
 
 .header_item:last-child {
@@ -244,6 +261,7 @@ body {
   background-color: #B90C0C;
   opacity: 80%;
 }
+
 
 /*Work styles end*/
 

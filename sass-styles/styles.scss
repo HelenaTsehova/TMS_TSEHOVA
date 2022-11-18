@@ -27,6 +27,18 @@
         line-height: 28px;
         text-transform: uppercase;
         color: #FFFFFF;
+        &:hover{
+            background-color: #E71414;
+            border-color: #E71414;
+        }
+        &:focus{
+            background-color: #FF4343;
+            border-color: #FF4343;
+            box-shadow: 4px 4px 30px rgba($color: #FF4343, $alpha: 1.0);
+        }
+        &:active{
+            box-shadow: 4px 4px 30px 0 rgba($color: #FF4343, $alpha: 1.0);
+        }
     }
 }
 .testimonials{
@@ -117,7 +129,20 @@
             line-height: 28px;
             text-transform: uppercase;
             color: #FFFFFF;
+            &:hover{
+                background-color: #E71414;
+                border-color: #E71414;
+            }
+            &:focus{
+                background-color: #FF4343;
+                border-color: #FF4343;
+                box-shadow: 4px 4px 30px rgba($color: #FF4343, $alpha: 1.0);
+            }
+            &:active{
+                box-shadow: 4px 4px 30px 0 rgba($color: #FF4343, $alpha: 1.0);
+            }
         }
+
     }
 
 }
