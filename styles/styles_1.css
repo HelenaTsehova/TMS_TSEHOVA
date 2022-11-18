@@ -51,7 +51,8 @@ html {
 }
 
 body { 
-  width: 1510px;
+  max-width: 1510px;
+  width: 100%;
   display: table-cell;
   vertical-align: middle;
 }
@@ -383,7 +384,7 @@ body {
 @media screen and (min-width: 321px) and (max-width: 1024px) {
 
   body { 
-    width: 1024px;
+    width: 100%;
   }
 
   .wrapper {
@@ -594,7 +595,7 @@ body {
 @media screen and (max-width: 320px) {
 
   body { 
-    width: 320px;
+    width: 100%;
   }
 
   .wrapper {
